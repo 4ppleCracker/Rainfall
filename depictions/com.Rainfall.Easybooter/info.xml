@@ -14,7 +14,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>This is just coolbootercli but easier to understand for new people or non experienced. Type "su" then your password and lastly type "sh EasyBooter.sh”</description>
+		<description>This is just coolbootercli but easier to understand for new people or non experienced. Type "su" then your password and lastly type "sh EasyBooter”</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
