@@ -1,7 +1,7 @@
 <package>
 	<id>com.Rainfall.Easybooter</id>
 	<name>Easybooter</name>
-	<version>1.0.0-1</version>
+	<version>1.0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>6.0</miniOS>
@@ -12,7 +12,9 @@
 				-->
 		</firmware>
 	</compatibility>
-	<dependencies></dependencies>
+	<dependencies>
+		mobilesubstrate
+	</dependencies>
 	<descriptionlist>
 		<description>This is just coolbootercli but easier to understand for new people or non experienced. Type "su" then your password and lastly type "sh EasyBooter”</description>
 	</descriptionlist>
