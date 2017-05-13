@@ -1,10 +1,10 @@
 <changelog>
 	<changes>
-		<version>1.0.1</version>
+		<version>1.0.1-1</version>
 		<change>Fixed some tiny stuff</change>
 	</changes>
 	<changes>
-		<version>1.0.0</version>
+		<version>1.0.0-1</version>
 		<change>Initial release</change>
 	</changes>
 </changelog>
