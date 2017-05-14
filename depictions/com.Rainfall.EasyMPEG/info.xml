@@ -1,0 +1,28 @@
+<package>
+	<id>com.Rainfall.EasyMPEG</id>
+	<name>EasyMPEG</name>
+	<version>1.1.0-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>2.0</miniOS>
+				<maxiOS>10.2</maxiOS>
+				<otherVersions>unsupported</otherVersions>
+				<!--
+				for otherVersions, you can put either unsupported or unconfirmed
+				-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		mobilesubstrate
+		ffmpeg
+		ImageMagick
+	</dependencies>
+	<descriptionlist>
+		<description>This is just FFMPEG but easier to understand for new people or non experienced. Type "su" then your password and lastly type "sh EasyMPEG”</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
