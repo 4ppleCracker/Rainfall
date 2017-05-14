@@ -1,0 +1,38 @@
+#!/bin/bash
+# quick coolbooter script for dummies made in like 5 minutes
+echo "Coolbooter script made by Nobbele who also go by the name 4pplecracker."
+echo "Follow me on twitter @4pplecracker. Report any bugs/errors with this program there.
+"
+echo "Type 'install', 'uninstall' or 'boot' followed by [ENTER]"
+
+read option
+
+if [ $option == "install" ]
+   then
+	echo "Which version would you like to install? (only ios 5, 6 and 7 are supported)"
+	read version
+	coolbootercli $version
+elif [ $option == "uninstall" ]
+	then
+	 coolbootercli -u
+elif [ $option == "boot" ]
+	then
+	echo "Are you sshed into the iDevice or using terminal? 'ssh' or 'terminal'"
+	read answer
+	if [ $answer == "ssh" ]
+		then
+	    coolbootercli -b
+	else
+		echo "For a reason i can't type here, you can not boot Coolbooter/Easybooter using terminal. You can still install and uninstall in terminal.
+
+		Here is how you ssh into you iDevice: 
+
+		Make sure you have openssh installed and if you are using windows download a program called 'putty' but if you are using either mac or linux you open a terminal and type 'ssh root@[IP]'. in putty on windows you type 'root@[IP] in the address'.
+		Then to find out your ip address you go onto your iDevice and open settings, Wifi, click the 'i' beside the wifi you are connected to and you will see your iP/iPv4 address.
+		Then on your computer after you sshed you accept the keys if it comes up by typing 'yes' and then type your root password.
+
+		for more info visit google.com"
+	fi
+else
+	echo "you didn't type it correctly"
+fi
